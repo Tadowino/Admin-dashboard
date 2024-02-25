@@ -11,6 +11,9 @@
     background-color: #0ea5e9;
     color: black;
 }
-.white{
-    background-color: black;
+.icon-side{
+    width: 40px;
+}
+.dash-icon{
+    width: 60px;
 }
