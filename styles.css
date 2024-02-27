@@ -182,15 +182,58 @@ input{
 }
 .announce-card{
     margin-left: 10px;
-    margin-top: 40px;
-    border: 2px solid black;
+    margin-top: 30px;
+    border: 1px solid grey;
     width: 350px;
     height: 320px;
     border-radius: 10px;
+    background-color: white;
 }
 .announce-cnt{
-    padding: 40px;
+    padding: 20px;
 }
+.divider{
+    
+    border: 0.5px solid grey;
+    width: 280px;
+    margin: 10px 0;
+}
+.trending{
+    border: 1px solid grey;
+    width: 350px;
+    height: 210px;
+    border-radius: 10px;
+    margin-left: 10px;
+    background-color: white;
+    margin-top: 25px;
+}
+.trnd-pd{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.trnd-card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+#announcement{
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: -12px;
+}
+#trending{
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: -12px;
+}
+
 
 
 
